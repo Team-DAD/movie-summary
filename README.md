@@ -1,39 +1,11 @@
-# Project Name
+# Movie Summary
+Display detailed information about a movie
 
-> Project description
+## CRUD
 
-## Related Projects
-
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-
-## Usage
-
-> Some usage instructions
-
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
-
+| Action        | Request       | Route            |  Purpose  |
+| ------------- | -------------| ----------------| ---------------|
+| Create        | POST          | /api/movies/:movieId/summary | insert a new movie and its detail |
+| Read          | GET           | /api/movies/:movieId/summary | retrieve a movie summary |
+| Update        | PUT           | /api/movies/:movieId/summary | update a movie summary |
+| Delete        | DELETE        | /api/movies/:movieId/summary | delete a movie summary |
